@@ -1,2 +1,2 @@
 # hello-go
-First Go project
+First Go project, by JY
