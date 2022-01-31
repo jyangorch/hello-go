@@ -1,3 +1,3 @@
-module github.com/jyangorch/hello-go.git
+module github.com/jyangorch/hello-go
 
 go 1.17
