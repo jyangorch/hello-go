@@ -27,7 +27,7 @@ type LicensingService interface {
 	// Assign specific license id to user
 	AssignSpecificLicense(licId string, accId string, insId string, insUsrId string) (*licensing.License, error)
 
-	// Assign a random available license of a given package to a given user
+	// Assign any available license of a given package to a given user
 	AssignAvailableLicenseOfPackage(pkgId string, accId string, insId string, insUsrId string) (*licensing.License, error)
 
 	// Count the total unassigned licenses, possessed by the given customer account
